@@ -44,20 +44,20 @@ a {
 
 p {
   font-family: "swansea-font";
-  color: #013328;
+  color: #4f000b;
   font-size: 175%;
   text-align: justify;
 }
 
 li {
     font-family: "swansea-font";
-    color: #013328;
+    color: #4f000b;
     font-size: 175%;
 }
 
 h1 {
   font-family: "kona-font";
-  color: #013328;
+  color: #4f000b;
   margin-left: 20px;
   text-align: center;
   margin: 0 0 0 0;
@@ -66,7 +66,7 @@ h1 {
 
 h2 {
   font-family: "kona-font";
-  color: #013328;
+  color: #4f000b;
   margin-left: 20px;
   text-align: justify;
   margin: 0 0 0 0;
@@ -76,7 +76,7 @@ h2 {
 .button {
   border: none;
   color: white;
-  background-color: #013328;
+  background-color: #4f000b;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -102,7 +102,7 @@ table {
 
 th {
   font-family: "kona-font";
-  color: #013328;
+  color: #4f000b;
   font-size: 250%;
   margin-left: 20px;
   text-align: center;
@@ -111,7 +111,7 @@ th {
 
 td {
   font-family: "swansea-font";
-  color: #013328;
+  color: #4f000b;
   font-size: 175%;
   text-align: left;
   padding-left: 10px;
@@ -126,7 +126,7 @@ td {
   height: 25%;
   padding: 10px;
   margin-top: 2px;
-  background-color: #013328;
+  background-color: #4f000b;
 }
 
 /*END ANNOUNCEMENT STRIP*/
@@ -184,7 +184,7 @@ td {
 #myBar {
   width: 97%;
   height: 45px;
-  background-color: #013328;
+  background-color: #4f000b;
   text-align: center; /* To center it horizontally */
   line-height: 45px; /* To center it vertically */
   color: #e3dcd2;
@@ -197,9 +197,9 @@ td {
 /*HEADER IMAGES*/
 
 .hero-image-index {
-  background: url(images/onesie-min.jpg) no-repeat center; 
+  background: url(images/home.jpg) no-repeat center; 
   background-size: cover;
-  height: 400px;
+  height: 600px;
 }
 
 .hero-text-index {
@@ -213,9 +213,9 @@ td {
 }
 
 .hero-image-updates {
-  background: url(images/sign-min.jpg) no-repeat center; 
+  background: url(images/updates.jpg) no-repeat center; 
   background-size: cover;
-  height: 400px;
+  height: 600px;
 }
 
 .hero-text-updates {
@@ -229,9 +229,9 @@ td {
 }
 
 .hero-image-contact {
-  background: url(images/bench-min.jpg) no-repeat center; 
+  background: url(images/contact.jpg) no-repeat center; 
   background-size: cover;
-  height: 400px;
+  height: 600px;
 }
 
 .hero-text-contact {
@@ -245,9 +245,9 @@ td {
 }
 
 .hero-image-donate {
-  background: url(images/sunburst-min.jpg) no-repeat center; 
+  background: url(images/donate.jpg) no-repeat center; 
   background-size: cover;
-  height: 400px;
+  height: 600px;
 }
 
 .hero-text-donate {
@@ -260,13 +260,13 @@ td {
   text-shadow: 0px 0px 15px #100c0d;
 }
 
-.hero-image-registries {
-  background: url(images/chuckle-min.jpg) no-repeat center; 
+.hero-image-registry {
+  background: url(images/registry.jpg) no-repeat center; 
   background-size: cover;
-  height: 400px;
+  height: 600px;
 }
 
-.hero-text-registries {
+.hero-text-registry {
   text-align: center;
   position: absolute;
   top: 80%;
@@ -276,13 +276,13 @@ td {
   text-shadow: 0px 0px 15px #100c0d;
 }
 
-.hero-image-fundraisers {
-  background: url(images/jumping-min.jpg) no-repeat center; 
+.hero-image-fundraiser {
+  background: url(images/fundraiser.jpg) no-repeat center; 
   background-size: cover;
-  height: 400px;
+  height: 600px;
 }
 
-.hero-text-fundraisers {
+.hero-text-fundraiser {
   text-align: center;
   position: absolute;
   top: 80%;
