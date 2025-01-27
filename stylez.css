@@ -135,6 +135,7 @@ td {
 
 /*END ANNOUNCEMENT STRIP*/
 
+
 /*MODAL*/
 
 /* The Modal (background) */
@@ -157,7 +158,7 @@ td {
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 60%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
@@ -179,18 +180,9 @@ td {
 
 
 /*PROGRESS BAR*/
-/*
-  margin: auto;
-  margin-top: 30px;
-  cursor: pointer;
-  box-align: center;
-  display: flex;
-  justify-content: center;
-  width: 75%;
-  max-width: 500px;
-*/
+
 .progress {
-  --progress: 14%;
+  --progress: 17%;
   
   color: white;
   text-align: center;
