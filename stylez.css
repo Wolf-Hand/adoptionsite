@@ -20,6 +20,10 @@ a {
   background-color: transparent;
   text-decoration: none;
 }
+
+hr {
+  border-top: 2px solid #4f000b;
+}
   
 a:visited {
   color: #cc8b65;
@@ -175,8 +179,40 @@ td {
 
 
 /*PROGRESS BAR*/
+/*
+  margin: auto;
+  margin-top: 30px;
+  cursor: pointer;
+  box-align: center;
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  max-width: 500px;
+*/
+.progress {
+  --progress: 14%;
+  
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  width: 80%;
+  max-width: 700px;
+  height: 50px;
+  margin: 0 auto 30px auto;
+  box-align: center;
+  background-color: #cc8b65;
+}
 
-#myProgress {
+.progress .bar {
+  width: var(--progress);
+  height: 100%;
+  background: #4f000b;
+  background-repeat: repeat;
+}
+
+
+#myProgress{
   width: 100%;
   background-color: #cc8b65;
 }
