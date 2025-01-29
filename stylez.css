@@ -53,6 +53,12 @@ p {
   text-align: justify;
 }
 
+blockquote {
+  font-family: "swansea-font";
+  color: #4f000b;
+  font-size: 175%;
+}
+
 li {
     font-family: "swansea-font";
     color: #4f000b;
@@ -124,7 +130,7 @@ td {
 /*ANNOUNCEMENT STRIP*/
 
 .strip {
-  font-size: 110%;
+  font-size: 130%;
   color: #e3dcd2;
   text-align: center;
   height: 25%;
@@ -182,7 +188,7 @@ td {
 /*PROGRESS BAR*/
 
 .progress {
-  --progress: 21%;
+  --progress: 43%;
   
   color: white;
   text-align: center;
