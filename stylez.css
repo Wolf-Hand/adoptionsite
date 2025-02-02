@@ -139,6 +139,16 @@ td {
   background-color: #4f000b;
 }
 
+.strip p {
+  font-size: 110%;
+  color: #e3dcd2;
+  text-align: center;
+  height: 25%;
+  padding: 10px;
+  margin-top: 2px;
+  background-color: #4f000b
+}
+
 /*END ANNOUNCEMENT STRIP*/
 
 
@@ -188,7 +198,7 @@ td {
 /*PROGRESS BAR*/
 
 .progress {
-  --progress: 45%;
+  --progress: 48%;
   
   color: white;
   text-align: center;
