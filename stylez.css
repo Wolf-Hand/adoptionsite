@@ -198,7 +198,7 @@ td {
 /*PROGRESS BAR*/
 
 .progress {
-  --progress: 48%;
+  --progress: 50%;
   
   color: white;
   text-align: center;
